@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+<menu id="root-menu" label="root-menu">
+  <menu id="Accessories" label="Accessories">
+    <item label="Calculator" icon="org.gnome.Calculator">
+      <action name="Execute"><command>gnome-calculator</command></action>
+    </item>
+    <item label="Calendar" icon="org.gnome.Calendar">
+      <action name="Execute"><command>gnome-calendar</command></action>
+    </item>
+    <item label="Characters" icon="org.gnome.Characters">
+      <action name="Execute"><command>/usr/bin/gnome-characters</command></action>
+    </item>
+    <item label="Clocks" icon="org.gnome.clocks">
+      <action name="Execute"><command>gnome-clocks</command></action>
+    </item>
+    <item label="Connections" icon="org.gnome.Connections">
+      <action name="Execute"><command>gnome-connections</command></action>
+    </item>
+    <item label="Disks" icon="org.gnome.DiskUtility">
+      <action name="Execute"><command>gnome-disks</command></action>
+    </item>
+    <item label="Extensions" icon="org.gnome.Extensions">
+      <action name="Execute"><command>/usr/bin/gnome-extensions-app</command></action>
+    </item>
+    <item label="Files" icon="org.gnome.Nautilus">
+      <action name="Execute"><command>nautilus --new-window</command></action>
+    </item>
+    <item label="Fonts" icon="org.gnome.font-viewer">
+      <action name="Execute"><command>gnome-font-viewer</command></action>
+    </item>
+    <item label="Help" icon="org.gnome.Yelp">
+      <action name="Execute"><command>yelp</command></action>
+    </item>
+    <item label="KeePassXC" icon="org.keepassxc.KeePassXC">
+      <action name="Execute"><command>/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=keepassxc --file-forwarding org.keepassxc.KeePassXC @@  @@</command></action>
+    </item>
+    <item label="Logs" icon="org.gnome.Logs">
+      <action name="Execute"><command>gnome-logs</command></action>
+    </item>
+    <item label="Maps" icon="org.gnome.Maps">
+      <action name="Execute"><command>gapplication launch org.gnome.Maps</command></action>
+    </item>
+    <item label="Neovim" icon="nvim">
+      <action name="Execute"><command>nvim</command></action>
+    </item>
+    <item label="Text Editor" icon="org.gnome.TextEditor">
+      <action name="Execute"><command>gnome-text-editor</command></action>
+    </item>
+    <item label="Tour" icon="org.gnome.Tour">
+      <action name="Execute"><command>gnome-tour</command></action>
+    </item>
+    <item label="Tweaks" icon="org.gnome.tweaks">
+      <action name="Execute"><command>gnome-tweaks</command></action>
+    </item>
+    <item label="Weather" icon="org.gnome.Weather">
+      <action name="Execute"><command>gapplication launch org.gnome.Weather</command></action>
+    </item>
+  </menu> <!-- Accessories -->
+  <menu id="Development" label="Development">
+    <item label="Boxes" icon="org.gnome.Boxes">
+      <action name="Execute"><command>gnome-boxes</command></action>
+    </item>
+    <item label="VSCodium" icon="vscodium">
+      <action name="Execute"><command>/usr/share/codium/codium</command></action>
+    </item>
+  </menu> <!-- Development -->
+  <menu id="Games" label="Games">
+    <item label="Dungeon Crawl Stone Soup" icon="org.develz.Crawl">
+      <action name="Execute"><command>/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=/app/bin/crawl org.develz.Crawl</command></action>
+    </item>
+    <item label="Steam" icon="steam">
+      <action name="Execute"><command>/usr/bin/steam</command></action>
+    </item>
+  </menu> <!-- Games -->
+  <menu id="Graphics" label="Graphics">
+    <item label="Document Scanner" icon="org.gnome.SimpleScan">
+      <action name="Execute"><command>simple-scan</command></action>
+    </item>
+    <item label="Document Viewer" icon="org.gnome.Evince">
+      <action name="Execute"><command>evince</command></action>
+    </item>
+    <item label="Image Viewer" icon="org.gnome.Loupe">
+      <action name="Execute"><command>loupe</command></action>
+    </item>
+  </menu> <!-- Graphics -->
+  <menu id="Internet" label="Internet">
+    <item label="Connections" icon="org.gnome.Connections">
+      <action name="Execute"><command>gnome-connections</command></action>
+    </item>
+    <item label="Firefox" icon="firefox">
+      <action name="Execute"><command>firefox</command></action>
+    </item>
+    <item label="Geary" icon="org.gnome.Geary">
+      <action name="Execute"><command>geary</command></action>
+    </item>
+    <item label="Steam" icon="steam">
+      <action name="Execute"><command>/usr/bin/steam</command></action>
+    </item>
+  </menu> <!-- Internet -->
+  <menu id="Multimedia" label="Multimedia">
+    <item label="Camera" icon="org.gnome.Snapshot">
+      <action name="Execute"><command>snapshot</command></action>
+    </item>
+    <item label="Cheese" icon="org.gnome.Cheese">
+      <action name="Execute"><command>cheese</command></action>
+    </item>
+    <item label="Rhythmbox" icon="org.gnome.Rhythmbox3">
+      <action name="Execute"><command>rhythmbox</command></action>
+    </item>
+    <item label="Videos" icon="org.gnome.Totem">
+      <action name="Execute"><command>totem</command></action>
+    </item>
+  </menu> <!-- Multimedia -->
+  <menu id="Office" label="Office">
+    <item label="Calendar" icon="org.gnome.Calendar">
+      <action name="Execute"><command>gnome-calendar</command></action>
+    </item>
+    <item label="calibre" icon="calibre-gui">
+      <action name="Execute"><command>calibre --detach</command></action>
+    </item>
+    <item label="Contacts" icon="org.gnome.Contacts">
+      <action name="Execute"><command>gnome-contacts</command></action>
+    </item>
+    <item label="Document Viewer" icon="org.gnome.Evince">
+      <action name="Execute"><command>evince</command></action>
+    </item>
+    <item label="LibreOffice Calc" icon="libreoffice-calc">
+      <action name="Execute"><command>libreoffice --calc</command></action>
+    </item>
+    <item label="LibreOffice Impress" icon="libreoffice-impress">
+      <action name="Execute"><command>libreoffice --impress</command></action>
+    </item>
+    <item label="LibreOffice Writer" icon="libreoffice-writer">
+      <action name="Execute"><command>libreoffice --writer</command></action>
+    </item>
+  </menu> <!-- Office -->
+  <menu id="Settings" label="Settings">
+    <item label="Rygel Preferences" icon="rygel">
+      <action name="Execute"><command>rygel-preferences</command></action>
+    </item>
+    <item label="Settings" icon="org.gnome.Settings">
+      <action name="Execute"><command>gnome-control-center</command></action>
+    </item>
+  </menu> <!-- Settings -->
+  <menu id="System" label="System">
+    <item label="Alacritty" icon="Alacritty">
+      <action name="Execute"><command>alacritty</command></action>
+    </item>
+    <item label="Boxes" icon="org.gnome.Boxes">
+      <action name="Execute"><command>gnome-boxes</command></action>
+    </item>
+    <item label="Color Profile Viewer" icon="gnome-color-manager">
+      <action name="Execute"><command>gcm-viewer</command></action>
+    </item>
+    <item label="Disk Usage Analyzer" icon="org.gnome.baobab">
+      <action name="Execute"><command>baobab</command></action>
+    </item>
+    <item label="Fedora Media Writer" icon="org.fedoraproject.MediaWriter">
+      <action name="Execute"><command>mediawriter</command></action>
+    </item>
+    <item label="GNOME System Monitor" icon="org.gnome.SystemMonitor">
+      <action name="Execute"><command>gnome-system-monitor</command></action>
+    </item>
+    <item label="Logs" icon="org.gnome.Logs">
+      <action name="Execute"><command>gnome-logs</command></action>
+    </item>
+    <item label="Parental Controls" icon="org.freedesktop.MalcontentControl">
+      <action name="Execute"><command>malcontent-control</command></action>
+    </item>
+    <item label="Problem Reporting" icon="org.freedesktop.GnomeAbrt">
+      <action name="Execute"><command>gnome-abrt</command></action>
+    </item>
+    <item label="Software" icon="org.gnome.Software">
+      <action name="Execute"><command>gnome-software</command></action>
+    </item>
+    <item label="System Monitor" icon="org.gnome.SystemMonitor">
+      <action name="Execute"><command>gnome-system-monitor</command></action>
+    </item>
+    <item label="Terminal" icon="org.gnome.Terminal">
+      <action name="Execute"><command>gnome-terminal</command></action>
+    </item>
+    <item label="Tilix" icon="com.gexperts.Tilix">
+      <action name="Execute"><command>tilix</command></action>
+    </item>
+  </menu> <!-- System -->
+</menu> <!-- root-menu -->
+</openbox_menu>

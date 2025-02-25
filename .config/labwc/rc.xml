@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<!--
+  This is a very simple config file with many options missing. For a complete
+  set of options with comments, see docs/rc.xml.all
+-->
+
+<labwc_config>
+  <theme>
+    <name></name>
+    <cornerRadius>8</cornerRadius>
+    <font name="sans" size="10" />
+  </theme>
+
+  <keyboard>
+    <default />
+    <!-- Use a different terminal emulator -->
+    <keybind key="W-T">
+      <action name="Execute" command="alacritty" />
+    </keybind>
+    <keybind key="W-Return">
+      <action name="Execute" command="fuzzel" />
+    </keybind>
+    <keybind key="XF86_MonBrightnessUp">
+	    <action name="Execute">
+		    <command>sh -c "brightnessctl set +5% | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK"</command>
+	    </action>
+    </keybind>
+    <keybind key="XF86_MonBrightnessDown">
+	    <action name="Execute">
+		    <command>sh -c "brightnessctl set -n 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK"</command>
+	    </action>
+    </keybind>  
+    <keybind key="XF86_AudioLowerVolume">
+	    <action name="Execute">
+		    <command>sh -c "amixer sset Master 5%- | sed -En 's/.*\[([0-9]+)%\].*/\1/p' > $WOBSOCK"</command>
+	    </action>
+    </keybind>
+    <keybind key="XF86_AudioRaiseVolume">
+	    <action name="Execute">
+		    <command>sh -c "amixer sset Master 5%+ | sed -En 's/.*\[([0-9]+)%\].*/\1/p' > $WOBSOCK"</command>
+	    </action>
+    </keybind>
+    <keybind key="XF86_AudioMute">
+      <action name="Execute" command="amixer sset Master toggle" />
+    </keybind>
+    <keybind key="W-F3">
+      <action name="None"/>
+    </keybind>
+  </keyboard>
+
+  <mouse>
+    <default />
+    <!-- Show a custom menu on desktop right click -->
+    <context name="Root">
+      <mousebind button="Right" action="Press">
+        <action name="ShowMenu" menu="some-custom-menu" />
+      </mousebind>
+    </context>
+  </mouse>
+
+  <windowSwitcher show="yes" preview="yes" outlines="yes" allWorkspaces="no">
+    <fields>
+      <field content="type" width="25%" />
+      <field content="trimmed_identifier" width="25%" />
+      <!-- <field content="identifier" width="25%" /> -->
+      <field content="title" width="50%" />
+    </fields>
+  </windowSwitcher>
+
+
+</labwc_config>

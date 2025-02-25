@@ -1,0 +1,14 @@
+# desktop panel
+sfwbar >/dev/null 2>&1 &
+
+# desktop background
+swaybg -c '#113344' >/dev/null 2>&1 &
+
+# color temp
+gammastep -l 46.7:11.2 >/dev/null 2>&1 &
+
+# dbus notifications
+mako >/dev/null 2>&1 &
+
+# volume and brightness overlay
+rm -f $WOBSOCK && mkfifo $WOBSOCK && tail -f $WOBSOCK | wob &
