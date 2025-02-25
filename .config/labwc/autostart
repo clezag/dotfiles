@@ -12,3 +12,9 @@ mako >/dev/null 2>&1 &
 
 # volume and brightness overlay
 rm -f $WOBSOCK && mkfifo $WOBSOCK && tail -f $WOBSOCK | wob &
+
+# start ssh agent
+if [ ! -f $XDG_RUNTIME_DIR/ssh-agent.sock ]; then
+	ssh-agent -a $XDG_RUNTIME_DIR/ssh-agent.sock > $XDG_RUNTIME_DIR/ssh.env
+fi
+
