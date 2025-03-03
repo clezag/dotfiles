@@ -5,3 +5,4 @@ gammastep
 mako
 wob
 fuzzel
+neovim
