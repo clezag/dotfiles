@@ -4,9 +4,14 @@ if [[ -z "${XDG_CONFIG_HOME}" ]]; then
 	XDG_CONFIG_HOME=~/.config
 fi
 
+# alacritty
 ln -s $DOTFILES/.alacritty.toml ~/.alacritty.toml
 mkdir -p $XDG_CONFIG_HOME/alacritty/
 git clone git@github.com:alacritty/alacritty-theme.git $XDG_CONFIG_HOME/alacritty/alacritty-theme
+
+# vim
+ln -s $DOTFILES/.vimrc ~/.vimrc
+ln -s $DOTFILES/.vim ~/.vim
 
 for arg in $@
 do

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/cz/.local/share/applications'
+let g:netrw_dirhist_9='/home/cz/tmp'
+let g:netrw_dirhist_8='/home/cz/.config/GottCode'
+let g:netrw_dirhist_7='/home/cz/.config'
+let g:netrw_dirhist_6='/home/cz'
+let g:netrw_dirhist_5='/home/cz/.bashrc.d'
+let g:netrw_dirhist_4='/home/cz'
+let g:netrw_dirhist_3='/home/cz/.var/app/com.jgraph.drawio.desktop/config'
+let g:netrw_dirhist_2='/home/cz/sta'
+let g:netrw_dirhist_1='/home/cz/.config/alacritty'

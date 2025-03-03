@@ -1,0 +1,6 @@
+[submodule ".vim/plugged/lightline.vim"]
+	path = .vim/plugged/lightline.vim
+	url = git@github.com:itchyny/lightline.vim.git
+[submodule ".vim/plugged/vim-gitbranch"]
+	path = .vim/plugged/vim-gitbranch
+	url = https://github.com/itchyny/vim-gitbranch.git
