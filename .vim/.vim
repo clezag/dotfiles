@@ -1,0 +1,1 @@
+/home/kmb/dotfiles/.vim

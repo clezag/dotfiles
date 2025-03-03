@@ -4,3 +4,6 @@
 [submodule ".vim/plugged/vim-gitbranch"]
 	path = .vim/plugged/vim-gitbranch
 	url = https://github.com/itchyny/vim-gitbranch.git
+[submodule ".vim/plugged/vim-sensible"]
+	path = .vim/plugged/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
