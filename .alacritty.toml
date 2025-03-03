@@ -1,9 +1,24 @@
-[keyboard]
-bindings = [
-   { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
-]
+[env]
+TERM = "xterm-256color"
 
-[window]
-padding = {x=4, y=2}
-dynamic_padding = true
+[[keyboard.bindings]]
+action = "Copy"
+key = "Insert"
+mods = "Control"
 
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control|Shift"
+
+[window.padding]
+x = 7
+y = 5
+
+[general]
+import = ["/home/cz/.config/alacritty/alacritty-theme/themes/pencil_dark.toml"]
+
+[font]
+# size = 12
+[font.normal]
+family = "Source Code Pro"
