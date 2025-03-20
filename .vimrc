@@ -34,3 +34,7 @@ set noshowmode
 "keep visual mode after indent
 vnoremap > >gv
 vnoremap < <gv
+
+if exists("g:neovide")
+	set guifont=Source\ Code\ Pro:h11
+endif

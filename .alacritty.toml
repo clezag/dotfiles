@@ -11,6 +11,8 @@ action = "SpawnNewInstance"
 key = "Return"
 mods = "Control|Shift"
 
+[window]
+startup_mode = "Maximized"
 [window.padding]
 x = 7
 y = 5
@@ -19,6 +21,8 @@ y = 5
 import = ["/home/cz/.config/alacritty/alacritty-theme/themes/pencil_dark.toml"]
 
 [font]
-# size = 12
+size = 11
 [font.normal]
 family = "Source Code Pro"
+
+
