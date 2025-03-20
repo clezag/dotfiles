@@ -11,8 +11,8 @@ action = "SpawnNewInstance"
 key = "Return"
 mods = "Control|Shift"
 
-[window]
-startup_mode = "Maximized"
+# [window]
+# startup_mode = "Maximized"
 [window.padding]
 x = 7
 y = 5
