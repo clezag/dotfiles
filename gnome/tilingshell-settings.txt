@@ -1,0 +1,13 @@
+[/]
+enable-autotiling=true
+enable-window-border=true
+inner-gaps=uint32 1
+outer-gaps=uint32 2
+quarter-tiling-threshold=uint32 13
+selected-layouts=[['Layout 1', '57085208', 'Layout 1'], ['Layout 1', '57085208', 'Layout 1']]
+snap-assistant-animation-time=uint32 80
+snap-assistant-threshold=53
+tile-preview-animation-time=uint32 60
+top-edge-maximize=true
+window-border-color='rgb(153,193,241)'
+window-border-width=uint32 1
