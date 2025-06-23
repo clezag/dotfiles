@@ -114,7 +114,9 @@ alias code='codium --ozone-platform=$XDG_SESSION_TYPE'
 alias vide='/opt/neovide.AppImage'
 
 alias vim=nvim
+# use nvim as manpage viewer
 alias man="man --pager='nvim +Man!'"
+
 alias docker='podman'
 alias docker-compose='podman-compose'
 alias dcu='docker compose up'
