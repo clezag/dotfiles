@@ -38,3 +38,5 @@ vnoremap < <gv
 if exists("g:neovide")
 	set guifont=Source\ Code\ Pro:h11
 endif
+
+set guifont=mono
