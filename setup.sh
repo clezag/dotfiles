@@ -13,6 +13,9 @@ git clone git@github.com:alacritty/alacritty-theme.git $XDG_CONFIG_HOME/alacritt
 ln -s $DOTFILES/.vimrc ~/.vimrc
 ln -s $DOTFILES/.vim ~/.vim
 
+# zsh
+ln -s $DOTFILES/.zshrc ~/.zshrc
+
 for arg in $@
 do
 	if [[ arg -eq "labwc" ]];
