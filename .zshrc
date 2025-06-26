@@ -117,9 +117,9 @@ alias vim=nvim
 # use nvim as manpage viewer
 alias man="man --pager='nvim +Man!'"
 
-alias docker='podman'
-alias docker-compose='podman-compose'
 alias dcu='docker compose up'
+alias pcu='podman-compose up'
+
 alias k="kubectl"
 alias ka="k get pods -A -o wide"
 alias kk="kubectl get pods"
